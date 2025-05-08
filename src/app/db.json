@@ -1,0 +1,40 @@
+{
+  "rates": [
+    { "id": 1, "name": "Tabungan", "value": 3.7 },
+    { "id": 2, "name": "Deposito", "value": 5.1 }
+  ],
+  "exchange": [{ "id": 1, "currency": "USD", "value": 15500 }],
+  "user": [{ "id": 1, "name": "John", "balance": 1000000 }],
+  "promo": [
+    {
+      "id": 1,
+      "title": "Diskon 25% di KFC dengan Kartu Kredit BNI",
+      "slug": "diskon-25-di-kfc-dengan-kartu-kredit-bni",
+      "merchant": "KFC",
+      "description": "Nikmati makan hemat di KFC! Dengan menggunakan Kartu Kredit BNI, kamu bisa mendapatkan diskon sebesar 25% untuk setiap pembelian minimal Rp80.000. Promo ini berlaku setiap hari selama periode program berlangsung dan hanya berlaku di outlet KFC yang berpartisipasi. Cocok banget buat kamu yang sering hangout bareng teman atau keluarga. Jangan lewatkan kesempatan ini untuk makan enak, hemat, dan tetap stylish dengan BNI.",
+      "valid_until": "2025-06-30",
+      "terms": "Tidak berlaku kelipatan. Promo tidak dapat digabungkan dengan promo lainnya. Berlaku di outlet tertentu yang bekerja sama dengan BNI. Pastikan menyebutkan promo sebelum pembayaran.",
+      "image": "/promo_1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Cashback 20 Ribu di Alfamart dengan Kartu Debit BNI",
+      "slug": "cashback-20-ribu-di-alfamart-dengan-kartu-debit-bni",
+      "merchant": "Alfamart",
+      "description": "Belanja kebutuhan harian jadi lebih hemat dengan Kartu Debit BNI! Dapatkan cashback sebesar Rp20.000 setiap kali kamu belanja minimal Rp150.000 di Alfamart. Promo ini berlaku di seluruh gerai Alfamart di Indonesia, jadi kamu bisa manfaatkan promo ini di mana saja. Cashback akan langsung dikirimkan ke rekeningmu dalam waktu 7 hari kerja. Sangat cocok untuk kamu yang rutin belanja bulanan atau keperluan rumah tangga.",
+      "valid_until": "2025-07-20",
+      "terms": "Cashback hanya berlaku untuk satu kali transaksi per hari per kartu. Promo berlaku selama persediaan masih ada dan dapat berubah sewaktu-waktu sesuai kebijakan BNI dan Alfamart.",
+      "image": "/promo_2.webp"
+    },
+    {
+      "id": 3,
+      "title": "Buy 1 Get 1 Kopi Kenangan dengan TapCash BNI",
+      "slug": "buy-1-get-1-kopi-kenangan-dengan-tapcash-bni",
+      "merchant": "Kopi Kenangan",
+      "description": "Mulai hari Senin kamu bisa nikmati kopi favoritmu bareng teman tanpa harus bayar dua kali! Gunakan BNI TapCash di gerai Kopi Kenangan dan dapatkan promo Buy 1 Get 1 untuk semua jenis minuman ukuran reguler. Cocok banget buat temani hari produktifmu atau sekadar nongkrong santai. Promo ini berlaku eksklusif setiap hari Senin, jadi tandai kalender kamu dan jangan sampai ketinggalan ya!",
+      "valid_until": "2025-08-31",
+      "terms": "Promo berlaku khusus untuk pembelian langsung di gerai (tidak berlaku untuk pemesanan online). Tidak dapat digabungkan dengan voucher atau diskon lainnya. Promo terbatas untuk 1 kali per akun TapCash per hari.",
+      "image": "/promo_3.jpeg"
+    }
+  ]
+}
