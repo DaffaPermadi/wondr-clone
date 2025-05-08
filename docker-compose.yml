@@ -9,7 +9,7 @@ services:
     ports:
       - '3000:3000'
     environment:
-      - DATABASE_URL=postgresql://postgres:dappa@localhost:5432/wondr-db
+      - DATABASE_URL=postgresql://postgres:postgres@localhost:5432/wondr-db
       - JWT_SECRET=your_jwt_secret
       - NEXTAUTH_URL=http://localhost:3000
       - GITHUB_CLIENT_ID=GANTI_PAKE_GITHUB_CLIENT_MASING2
